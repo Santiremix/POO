@@ -45,7 +45,7 @@ class profesor extends Persona{
 }
 asignar() {
   console.log(
-    `Te llamas ${this.name}, tienes ${this.age} años, eres ${this.gender}, vas a ${this.course} en el grupo ${this.group} y diriges la asignatura de ${this.subject} de nivel ${this.level}.`
+    `Te llamas ${this.name}, tienes ${this.age} años, eres ${this.gender}, vas a ${this.course} en el grupo ${this.group} y diriges la asignatura de ${this.subject} ${this.level}.`
   )
 }
 }
